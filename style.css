@@ -1,0 +1,211 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:10px;
+    padding:10px;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+    background-color: ;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	}
+
+html {
+	height: 2000px;
+	background-color: #FDFFA0;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/4/4a/Hovhannes_Aivazovsky_-_The_Ninth_Wave_-_Google_Art_Project.jpg);
+	background-size: 100% auto;
+	background-position: top center;
+	background-attachment: fixed;
+	}
+
+body {
+	height: 100%;
+	background-image: linear-gradient(hsl(10,90,66), transparent 70%);
+	background-size: 100% 100%;
+	mix-blend-mode: difference;
+	}
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+
+input, select {
+    vertical-align:middle;
+}
+
+/*MY CODE*/
+
+h1{
+  font-family: arial;
+  font-size: 65px;
+  font-style: italic;
+  font-weight:8px;
+  text-align: center;
+  color: #FDFFA0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  line-height: 47px;
+
+}
+h3{
+  font-family: arial;
+  font-size: 65px;
+  font-style: italic;
+  font-weight:8px;
+  text-align: left;
+  color: #FDFFA0;
+  letter-spacing: 8px;
+  word-spacing: 10px;
+  line-height: 47px;
+  position: fixed;
+
+}
+h2{
+  font-family: arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight:50px;
+  text-align: center;
+  color: black;
+  letter-spacing: 38px;
+  word-spacing: 10px;
+  line-height: 85px;
+}
+h4{
+  font-family: arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight:20px;
+  text-align: left;
+  color: black;
+  letter-spacing: 1px;
+  word-spacing: 6px;
+  line-height: 30px;
+}
+
+
+
+.img-grandma{
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 33%;
+
+
+
+}
+
+.img-horiz{
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 65%;
+}
+.img-rotate{
+  display: inline-grid;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+  transform: rotate(90deg);
+}
+ul{
+  text-align: center;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+  line-height: ;
+}
+ul li a{
+  display: block;
+  background-color:;
+  text-decoration: none;
+  color: black;
+  font-size: 19px;
+  font-family: arial;
+  font-style: bold;
+  padding: 25px 30px 25px 30px;
+}
+ul li a:hover{
+
+  background-color: #FDFFA0;
+  transition-duration: 1.0s;
+}
+
+p{
+  color: #EBD079;
+  line-height: 40px;
+}
